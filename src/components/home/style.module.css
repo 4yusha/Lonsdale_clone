@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+  background-color: #8dd2e4;
+}
+
+.desktop-banner-image {
+  background-size: cover;
+  height: calc(100vh - 64px);
+  box-sizing: border-box;
+}
+
+.desktop-banner-image > img {
+  display: block;
+  width: 101%;
+  height: auto;
+  overflow: clip;
+}
+
+.contentLogo {
+  padding-top: 30px;
+  width: 233px;
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.content {
+  margin-top: 88px;
+  margin-left: 80px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}

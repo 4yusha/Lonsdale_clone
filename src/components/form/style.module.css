@@ -1,0 +1,140 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: -120px;
+}
+
+.submitButton {
+  font-family: 'Sztos Regular';
+  background-color: #e62629;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.submitButton:hover {
+  background-color: #c51f20;
+}
+
+.error {
+  color: #e62629;
+  font-size: 12px;
+  margin-top: 5px;
+  top: -20px;
+  margin-bottom: 5px;
+}
+
+.paragraph {
+  position: relative;
+}
+
+.break {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "aeonikregular";
+  margin-top: 150px;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  margin-bottom: 190px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.colLeft {
+  padding: 20px;
+  margin-left: -100px;
+}
+
+.colRight {
+  flex: 1;
+  padding: 72px;
+}
+
+.headingOne {
+  color: #e62629;
+  font-weight: bold;
+  font-family: "Oud Warenhuis";
+  font-size: 60px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.text1 {
+  font-size: 24px;
+  line-height: 0.7;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 450;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.formGroup input,
+.formGroup select {
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.flexLabel {
+  margin-right: 20px;
+  width: 150px;
+  font-size: 18px;
+}
+
+.textInput,
+.emailInput,
+.selectInput {
+  font-family: 'Sztos Regular';
+  width: 11%;
+  padding: 15px;
+  margin-right: 0;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.checkboxInput {
+  margin-left: -235px;
+}
+
+.label {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: -227px;
+}

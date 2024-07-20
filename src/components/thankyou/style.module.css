@@ -1,0 +1,65 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #8dd2e4;
+}
+
+.add {
+  width: 100%;
+  text-align: center;
+  padding: 20px 150px;
+  color: black;
+  font-weight: bold;
+  padding-top: 150px;
+  display: flex;
+}
+
+.info {
+  display: flex;
+  padding-left: 150px;
+  font-size: 1.5em;
+  color: black;
+  margin: 0px;
+  margin-top: -87px;
+  font-family: "aeonikregular";
+  font-weight: 500;
+  flex-direction: column;
+
+}
+
+.thanks {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  padding-left: 150px;
+  font-family: "aeonikregular"; 
+}
+
+.contentLogo {
+  margin-left: 800px;
+  padding-top: 150px;
+  position: relative;
+}
+
+.wholeLonsThank {
+  margin-left: 135px;
+}
+
+.imgFluid {
+  max-width: 76%;
+  height: auto;
+  margin-left: 100px;
+  margin-top: -590px;
+  position: absolute;
+}
+
+.thanks{
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  padding-left: 150px;
+  font-family: "aeonikregular"; 
+}

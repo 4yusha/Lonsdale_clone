@@ -1,0 +1,46 @@
+.inputContainer {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .inputContainer label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .inputContainer input[type="text"],
+  .inputContainer input[type="email"],
+  .inputContainer input[type="password"],
+  .inputContainer select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .inputContainer input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .inputContainer .error {
+    color: #e62629;
+    font-size: 12px;
+    margin-top: -20px; 
+    margin-bottom: 5px; 
+    position: absolute; 
+    top: -20px; 
+    left: 0;
+}
+  
+.error {
+    color: #e62629;
+    font-size: 12px;
+    margin-top: 5px;
+    top:-20px;
+  }
+    
