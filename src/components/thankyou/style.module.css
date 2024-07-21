@@ -55,11 +55,3 @@
   position: absolute;
 }
 
-.thanks{
-  display: flex;
-  font-size: 30px;
-  font-weight: bold;
-  color: red;
-  padding-left: 150px;
-  font-family: "aeonikregular"; 
-}
